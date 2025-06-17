@@ -4,5 +4,5 @@ streamlit
 pickle
 scikit-learn
 pip==24.1.2
-xgboos
+xgboost==1.7.6
 joblib==1.2.0
