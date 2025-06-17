@@ -1,8 +1,6 @@
+streamlit
 pandas==2.2.2
 numpy==2.0.2
-streamlit
-pickle
 scikit-learn
-pip==24.1.2
 xgboost==1.7.6
-joblib==1.2.0
+joblib
