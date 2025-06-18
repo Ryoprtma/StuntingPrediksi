@@ -49,6 +49,6 @@ if st.button("Prediksi"):
     probabilitas = model.predict_proba(data_input)[0]
 
     # Tampilkan hasil
-    st.success(f"Prediksi Status Gizi: **{prediksi}**")
+    st.success(f"Prediksi Status Gizi: *{prediksi}*")
     st.write("Probabilitas:")
     st.write({f"{model.classes_[i]}": f"{round(prob * 100, 2)}%" for i, prob in enumerate(probabilitas)})
